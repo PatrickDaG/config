@@ -1,0 +1,6 @@
+[submodule "nvim-config"]
+	path = nvim-config
+	url = https://github.com/PatrickDaG/nvim-config.git
+[submodule "autorandr-config"]
+	path = autorandr-config
+	url = https://github.com/PatrickDaG/autorandr-config.git
