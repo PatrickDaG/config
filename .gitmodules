@@ -4,3 +4,6 @@
 [submodule "autorandr-config"]
 	path = autorandr-config
 	url = https://github.com/PatrickDaG/autorandr-config.git
+[submodule "herbstluftwm-config"]
+	path = herbstluftwm-config
+	url = https://github.com/PatrickDaG/herbstluftwm-config.git
