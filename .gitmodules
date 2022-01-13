@@ -7,3 +7,6 @@
 [submodule "herbstluftwm-config"]
 	path = herbstluftwm-config
 	url = https://github.com/PatrickDaG/herbstluftwm-config.git
+[submodule "home-config"]
+	path = home-config
+	url = https://github.com/PatrickDaG/home-config.git
