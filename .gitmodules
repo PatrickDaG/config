@@ -10,3 +10,9 @@
 [submodule "home-config"]
 	path = home-config
 	url = https://github.com/PatrickDaG/home-config.git
+[submodule "task-config"]
+	path = task-config
+	url = git@github.com:PatrickDaG/task-config.git
+[submodule "olivetin-config"]
+	path = olivetin-config
+	url = git@github.com:PatrickDaG/olivetin-config.git
