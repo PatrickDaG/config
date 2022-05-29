@@ -1,18 +1,18 @@
 [submodule "nvim-config"]
-	path = nvim-config
+	path = files/nvim-config
 	url = https://github.com/PatrickDaG/nvim-config.git
 [submodule "autorandr-config"]
-	path = autorandr-config
+	path = files/autorandr-config
 	url = https://github.com/PatrickDaG/autorandr-config.git
 [submodule "herbstluftwm-config"]
-	path = herbstluftwm-config
+	path = files/herbstluftwm-config
 	url = https://github.com/PatrickDaG/herbstluftwm-config.git
 [submodule "home-config"]
-	path = home-config
+	path = files/home-config
 	url = https://github.com/PatrickDaG/home-config.git
 [submodule "task-config"]
-	path = task-config
+	path = files/task-config
 	url = git@github.com:PatrickDaG/task-config.git
 [submodule "olivetin-config"]
-	path = olivetin-config
+	path = files/olivetin-config
 	url = git@github.com:PatrickDaG/olivetin-config.git
