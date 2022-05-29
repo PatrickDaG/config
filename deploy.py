@@ -1,10 +1,8 @@
 #!echo "run with fora"
 
 from fora.operations import local
-import os
+from fora import host
 
-for f in os.listdir("."):
-    if not os.path.isdir(f):
-        continue
-    local.script(f"{f}/deploy.py")
+for f in host.to_install:
+    local.script(f"tasks/{f}/deploy.py")
 
