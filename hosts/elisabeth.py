@@ -7,7 +7,6 @@ nginx_server = [
         "money.lel.lol",
         "monitor.lel.lol",
         "nc.lel.lol",
-        "ntfy.lel.lol",
         "pw.lel.lol",
         "raspi.lel.lol",
         "spotify.lel.lol",
