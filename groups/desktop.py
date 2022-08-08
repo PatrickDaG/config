@@ -1,4 +1,4 @@
-to_install.append([
-     "herbstluftwm",
-     ])
+#to_install.append([
+#     #"herbstluftwm",
+#     ])
 

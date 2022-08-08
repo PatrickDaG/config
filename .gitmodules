@@ -16,3 +16,9 @@
 [submodule "olivetin-config"]
 	path = files/olivetin-config
 	url = git@github.com:PatrickDaG/olivetin-config.git
+[submodule "files/nginx-config"]
+	path = files/nginx-config
+	url = gitea@git.lel.lol:patrick/nginx-config.git
+[submodule "files/gentoo-config"]
+	path = files/gentoo-config
+	url = git@github.com:PatrickDaG/gentoo-config.git
