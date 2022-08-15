@@ -22,6 +22,6 @@
 [submodule "files/gentoo-config"]
 	path = files/gentoo-config
 	url = git@github.com:PatrickDaG/gentoo-config.git
-[submodule "files/systemd-services"]
-	path = files/systemd-services
-	url = gitea@git.lel.lol:patrick/systemd-services.git
+[submodule "files/zfs_autobackup.config"]
+	path = files/zfs_autobackup-config
+	url = gitea@git.lel.lol:patrick/zfs_autobackup-config.git
