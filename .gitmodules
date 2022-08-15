@@ -22,3 +22,6 @@
 [submodule "files/gentoo-config"]
 	path = files/gentoo-config
 	url = git@github.com:PatrickDaG/gentoo-config.git
+[submodule "files/systemd-services"]
+	path = files/systemd-services
+	url = gitea@git.lel.lol:patrick/systemd-services.git
