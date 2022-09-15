@@ -10,4 +10,5 @@ nginx_server = [
         "pw.lel.lol",
         "raspi.lel.lol",
         "spotify.lel.lol",
+        "search.lel.lol",
         ]
