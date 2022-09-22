@@ -25,3 +25,6 @@
 [submodule "files/zfs_autobackup.config"]
 	path = files/zfs_autobackup-config
 	url = gitea@git.lel.lol:patrick/zfs_autobackup-config.git
+[submodule "files/homer-config"]
+	path = files/homer-config
+	url = gitea@git.lel.lol:patrick/homer-confic.git

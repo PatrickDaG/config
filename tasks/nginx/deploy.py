@@ -2,6 +2,7 @@
 
 from fora.operations import files, system
 from fora import inventory
+from fora import host
 
 with defaults(file_mode = "644", dir_mode = "755"):
     system.package(["nginx"])
@@ -18,9 +19,9 @@ with defaults(file_mode = "644", dir_mode = "755"):
     files.template("../../files/nginx-config/conf.d/http.conf.j2", "/etc/nginx/conf.d/http.conf")
 
     nginx_server = []
-    for i in nginx_server:
+    for i in host.nginx_server:
         files.upload(f"../../files/nginx-config/conf.d/server/{i}.conf",
-                "/etc/nginx/conf.d/server/{i}.conf")
+                f"/etc/nginx/conf.d/server/{i}.conf")
 
     files.directory("/etc/nginx/htpasswd/")
     for k,v in inventory.secrets["nginx"]["htpasswd"].items():
