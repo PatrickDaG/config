@@ -28,3 +28,6 @@
 [submodule "files/homer-config"]
 	path = files/homer-config
 	url = gitea@git.lel.lol:patrick/homer-confic.git
+[submodule "files/immich-config"]
+	path = files/immich-config
+	url = gitea@git.lel.lol:patrick/immich-config.git

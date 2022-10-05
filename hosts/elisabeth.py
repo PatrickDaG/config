@@ -17,3 +17,11 @@ nginx_server = [
         "search.lel.lol",
         "paperless.lel.lol",
         ]
+
+immich_jwt_secret = secrets["immich"]["jwt_secret"]
+immich_postgres_host = "127.0.0.1"
+immich_postgres_username = "immich"
+immich_postgres_database = "immich"
+immich_postgres_password = secrets["immich"]["postgres_password"]
+immich_upload_path = "/var/lib/immich/upload"
+
