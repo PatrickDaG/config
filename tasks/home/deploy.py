@@ -17,6 +17,7 @@ with defaults(umask = "022",file_mode = "644", dir_mode = "755"):
     git.repo(url = "https://github.com/Aloxaf/fzf-tab", path = "/usr/share/zsh/repos/Aloxaf/fzf-tab", update = True)
     git.repo(url = "https://github.com/zdharma-continuum/fast-syntax-highlighting", path = "/usr/share/zsh/repos/zdharma-continuum/fast-syntax-highlighting", update = True)
     git.repo(url = "https://github.com/larkery/zsh-histdb", path = "/usr/share/zsh/repos/larkery/zsh-histdb", update = True)
+    git.repo(url = "https://github.com/m42e/zsh-histdb-skim", path = "/usr/share/zsh/repos/m42e/zsh-histdb-skim", update = True)
 
 
     files.upload(src = "../../files/home-config/zshrc", dest = "/etc/zsh/zshrc")
